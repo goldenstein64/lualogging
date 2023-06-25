@@ -43,3 +43,38 @@ logging.console = require("logging.console")
 
 local logger = logging.console()
 ```
+
+## Types
+
+The types provided by this library are, exhaustively:
+
+* Classes, given as `logging.[CLASS NAME]`. Every class is listed below:
+
+| Name                            | Module Source          |
+|---------------------------------|------------------------|
+| `logging`                       | `logging`              |
+| `logging.loglevel`              | `logging`              |
+| `logging.logger`                | `logging`              |
+| `logging.osdate`                | `logging`              |
+| `logging.console`               | `logging.console`      |
+| `logging.console.options`       | `logging.console`      |
+| `logging.email`                 | `logging.email`        |
+| `logging.email.options`         | `logging.email`        |
+| `logging.email.options.headers` | `logging.email`        |
+| `logging.file`                  | `logging.file`         |
+| `logging.file.options`          | `logging.file`         |
+| `logging.rolling_file`          | `logging.rolling_file` |
+| `logging.rolling_file.options`  | `logging.rolling_file` |
+| `logging.rsyslog`               | `logging.rsyslog`      |
+| `logging.rsyslog.options`       | `logging.rsyslog`      |
+| `logging.rsyslog.facility`      | `logging.rsyslog`      |
+| `logging.socket`                | `logging.socket`       |
+| `logging.socket.options`        | `logging.socket`       |
+| `logging.sql`                   | `logging.sql`          |
+| `logging.sql.options`           | `logging.sql`          |
+
+* Aliases, given as `logging.[ALIAS NAME]`. Every alias is listed below:
+
+| Name             | Module Source |
+|------------------|---------------|
+| `logging.append` | `logging`     |
