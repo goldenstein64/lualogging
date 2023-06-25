@@ -1,0 +1,7 @@
+{
+	"editor.formatOnSave": true,
+	"Lua.misc.parameters": [
+		"--plugin=true"
+	],
+	"Lua.runtime.plugin": "plugin.lua"
+}
