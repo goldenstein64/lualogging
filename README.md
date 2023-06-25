@@ -14,6 +14,7 @@ For manual installation, add these settings to your `settings.json` file.
   "Lua.workspace.library": [
     // path to wherever this repo was cloned to
     "path/to/this/repo"
+    // e.g. on Windows, "$USERPROFILE/Documents/LuaEnvironments/lualogging"
   ],
   "Lua.runtime.plugin": "path/to/this/repo/plugin.lua"
 }
