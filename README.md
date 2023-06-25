@@ -8,7 +8,7 @@ The library should be pretty much fully supported. There's not much weird stuff 
 
 For manual installation, add these settings to your `settings.json` file.
 
-```json
+```jsonc
 // settings.json
 {
   "Lua.workspace.library": [
